@@ -1,0 +1,491 @@
+Watching for file changes with StatReloader
+/root/SmartClient/env/lib/python3.10/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator MultinomialNB from version 0.21.3 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+System check identified some issues:
+
+WARNINGS:
+chats.Chat: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the ChatsConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+chats.Feedback: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the ChatsConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+main_app.consultation: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the MainAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+main_app.diseaseinfo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the MainAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+main_app.rating_review: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the MainAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 5 issues (0 silenced).
+[09/Sep/2022 15:05:38] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:38] "GET /static/homepage/c31.jfif HTTP/1.1" 304 0
+[09/Sep/2022 15:05:38] "GET /static/homepage/c41.png HTTP/1.1" 304 0
+[09/Sep/2022 15:05:38] "GET /static/homepage/s72.png HTTP/1.1" 304 0
+[09/Sep/2022 15:05:38] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 304 0
+[09/Sep/2022 15:05:38] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:39] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:40] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:40] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:41] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:43] "GET /accounts/signup_doctor HTTP/1.1" 200 4298
+[09/Sep/2022 15:05:53] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:53] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:54] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:54] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:55] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:55] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:56] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:05:58] "GET /accounts/signup_doctor HTTP/1.1" 200 4298
+[09/Sep/2022 15:06:01] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:06:01] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:06:02] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:06:02] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:06:03] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:06:03] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:06:04] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:06:10] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 15:06:10] "GET /static/admin/signin/admin.png HTTP/1.1" 200 8314
+[09/Sep/2022 15:06:16] "GET /accounts/sign_in_doctor HTTP/1.1" 200 10514
+[09/Sep/2022 15:06:16] "GET /static/signin_page/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 124962
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/animate/animate.css HTTP/1.1" 200 23848
+[09/Sep/2022 15:06:16] "GET /static/signin_page/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 19680
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 27478
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/select2/select2.min.css HTTP/1.1" 200 15196
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 8163
+[09/Sep/2022 15:06:16] "GET /static/signin_page/css/util.css HTTP/1.1" 200 83821
+[09/Sep/2022 15:06:16] "GET /static/signin_page/css/main.css HTTP/1.1" 200 9241
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 5615
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/bootstrap/js/popper.js HTTP/1.1" 200 81670
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51143
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/select2/select2.min.js HTTP/1.1" 200 66664
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 46645
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 69776
+[09/Sep/2022 15:06:16] "GET /static/signin_page/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 1296
+[09/Sep/2022 15:06:16] "GET /static/signin_page/js/main.js HTTP/1.1" 200 1748
+[09/Sep/2022 15:06:16] "GET /static/signin_page/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 145312
+[09/Sep/2022 15:06:16] "GET /static/signin_page/fonts/poppins/Poppins-Bold.ttf HTTP/1.1" 200 141260
+[09/Sep/2022 15:06:16] "GET /static/signin_page/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+[09/Sep/2022 15:06:16] "GET /static/signin_page/fonts/poppins/Poppins-Medium.ttf HTTP/1.1" 200 143516
+[09/Sep/2022 15:06:21] "GET /accounts/sign_in_patient HTTP/1.1" 200 10507
+[09/Sep/2022 15:07:53] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 15:07:54] "GET /static/homepage/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+[09/Sep/2022 15:07:54] "GET /static/homepage/css.css HTTP/1.1" 200 194
+[09/Sep/2022 15:07:54] "GET /static/homepage/c31.jfif HTTP/1.1" 200 16465
+[09/Sep/2022 15:07:54] "GET /static/homepage/c41.png HTTP/1.1" 200 92863
+[09/Sep/2022 15:07:54] "GET /static/jquery.js HTTP/1.1" 200 248235
+[09/Sep/2022 15:07:55] "GET /static/homepage/s72.png HTTP/1.1" 200 2080473
+[09/Sep/2022 15:07:56] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 200 81349
+[09/Sep/2022 15:08:17] "GET /accounts/sign_in_doctor HTTP/1.1" 200 10514
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 124962
+[09/Sep/2022 15:08:18] "GET /static/signin_page/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+[09/Sep/2022 15:08:18] "GET /static/signin_page/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/animate/animate.css HTTP/1.1" 200 23848
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 19680
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 27478
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/select2/select2.min.css HTTP/1.1" 200 15196
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 8163
+[09/Sep/2022 15:08:18] "GET /static/signin_page/css/util.css HTTP/1.1" 200 83821
+[09/Sep/2022 15:08:18] "GET /static/signin_page/css/main.css HTTP/1.1" 200 9241
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 5615
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/bootstrap/js/popper.js HTTP/1.1" 200 81670
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51143
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/select2/select2.min.js HTTP/1.1" 200 66664
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 46645
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 69776
+[09/Sep/2022 15:08:18] "GET /static/signin_page/fonts/poppins/Poppins-Bold.ttf HTTP/1.1" 200 141260
+[09/Sep/2022 15:08:18] "GET /static/signin_page/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 145312
+[09/Sep/2022 15:08:18] "GET /static/signin_page/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+[09/Sep/2022 15:08:18] "GET /static/signin_page/fonts/poppins/Poppins-Medium.ttf HTTP/1.1" 200 143516
+[09/Sep/2022 15:08:18] "GET /static/signin_page/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 1296
+[09/Sep/2022 15:08:18] "GET /static/signin_page/js/main.js HTTP/1.1" 200 1748
+Not Found: /favicon.ico
+[09/Sep/2022 15:08:18] "GET /favicon.ico HTTP/1.1" 404 5663
+[09/Sep/2022 15:14:47] code 400, message Bad request version ('À\x14À')
+[09/Sep/2022 15:14:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Sep/2022 15:19:55,678] - Broken pipe from ('45.122.123.126', 48536)
+[09/Sep/2022 15:19:55,678] - Broken pipe from ('45.122.123.126', 48538)
+[09/Sep/2022 15:19:55,678] - Broken pipe from ('45.122.123.126', 48520)
+[09/Sep/2022 15:19:55,678] - Broken pipe from ('45.122.123.126', 48532)
+[09/Sep/2022 15:19:55,678] - Broken pipe from ('45.122.123.126', 48526)
+[09/Sep/2022 15:19:55,678] - Broken pipe from ('45.122.123.126', 48540)
+[09/Sep/2022 16:30:10] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 16:30:10] "GET /static/jquery.js HTTP/1.1" 200 248235
+[09/Sep/2022 16:30:10] "GET /static/homepage/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+[09/Sep/2022 16:30:10] "GET /static/homepage/css.css HTTP/1.1" 200 194
+[09/Sep/2022 16:30:10] "GET /static/homepage/c31.jfif HTTP/1.1" 200 16465
+[09/Sep/2022 16:30:10] "GET /static/homepage/c41.png HTTP/1.1" 200 92863
+[09/Sep/2022 16:30:11] "GET /static/homepage/s72.png HTTP/1.1" 200 2080473
+[09/Sep/2022 16:30:11] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 200 81349
+[09/Sep/2022 16:30:35] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 16:31:05] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 16:31:15] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 16:31:34] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 16:31:35] "GET /static/admin/signin/admin.png HTTP/1.1" 200 8314
+[09/Sep/2022 16:31:53] "GET /accounts/sign_in_doctor HTTP/1.1" 200 10514
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 124962
+[09/Sep/2022 16:31:53] "GET /static/signin_page/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+[09/Sep/2022 16:31:53] "GET /static/signin_page/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/animate/animate.css HTTP/1.1" 200 23848
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 19680
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 27478
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/select2/select2.min.css HTTP/1.1" 200 15196
+[09/Sep/2022 16:31:53] "GET /static/signin_page/css/util.css HTTP/1.1" 200 83821
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 8163
+[09/Sep/2022 16:31:53] "GET /static/signin_page/css/main.css HTTP/1.1" 200 9241
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 5615
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/bootstrap/js/popper.js HTTP/1.1" 200 81670
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51143
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/select2/select2.min.js HTTP/1.1" 200 66664
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 46645
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 69776
+[09/Sep/2022 16:31:53] "GET /static/signin_page/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 1296
+[09/Sep/2022 16:31:53] "GET /static/signin_page/js/main.js HTTP/1.1" 200 1748
+[09/Sep/2022 16:31:53] "GET /static/signin_page/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+[09/Sep/2022 16:31:53] "GET /static/signin_page/fonts/poppins/Poppins-Medium.ttf HTTP/1.1" 200 143516
+[09/Sep/2022 16:31:53] "GET /static/signin_page/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 145312
+[09/Sep/2022 16:31:53] "GET /static/signin_page/fonts/poppins/Poppins-Bold.ttf HTTP/1.1" 200 141260
+Not Found: /favicon.ico
+[09/Sep/2022 16:31:54] "GET /favicon.ico HTTP/1.1" 404 5663
+[09/Sep/2022 16:32:04] "GET /accounts/signup_doctor HTTP/1.1" 200 4298
+[09/Sep/2022 16:32:04] "GET /static/doctor/signup_form/signup.css HTTP/1.1" 200 681
+[09/Sep/2022 16:32:12] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 16:32:25] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 16:32:26] "GET /static/homepage/css.css HTTP/1.1" 200 194
+[09/Sep/2022 16:32:26] "GET /static/homepage/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+[09/Sep/2022 16:32:26] "GET /static/jquery.js HTTP/1.1" 200 248235
+[09/Sep/2022 16:32:26] "GET /static/homepage/c31.jfif HTTP/1.1" 200 16465
+[09/Sep/2022 16:32:26] "GET /static/homepage/c41.png HTTP/1.1" 200 92863
+[09/Sep/2022 16:32:26] "GET /static/homepage/s72.png HTTP/1.1" 200 2080473
+[09/Sep/2022 16:32:27] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 200 81349
+[09/Sep/2022 16:32:31] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 16:32:31] "GET /static/admin/signin/admin.png HTTP/1.1" 200 8314
+[09/Sep/2022 16:32:42] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 16:32:57] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 16:33:04] "GET /accounts/sign_in_doctor HTTP/1.1" 200 10514
+[09/Sep/2022 16:33:04] "GET /static/signin_page/vendor/animate/animate.css HTTP/1.1" 200 23848
+[09/Sep/2022 16:33:04] "GET /static/signin_page/fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+[09/Sep/2022 16:33:04] "GET /static/signin_page/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+[09/Sep/2022 16:33:04] "GET /static/signin_page/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 124962
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 19680
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 27478
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 8163
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/select2/select2.min.css HTTP/1.1" 200 15196
+[09/Sep/2022 16:33:05] "GET /static/signin_page/css/util.css HTTP/1.1" 200 83821
+[09/Sep/2022 16:33:05] "GET /static/signin_page/css/main.css HTTP/1.1" 200 9241
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 5615
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51143
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/bootstrap/js/popper.js HTTP/1.1" 200 81670
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/select2/select2.min.js HTTP/1.1" 200 66664
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 46645
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 69776
+[09/Sep/2022 16:33:05] "GET /static/signin_page/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 1296
+[09/Sep/2022 16:33:05] "GET /static/signin_page/js/main.js HTTP/1.1" 200 1748
+[09/Sep/2022 16:33:05] "GET /static/signin_page/fonts/poppins/Poppins-Bold.ttf HTTP/1.1" 200 141260
+[09/Sep/2022 16:33:05] "GET /static/signin_page/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 145312
+[09/Sep/2022 16:33:05] "GET /static/signin_page/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+[09/Sep/2022 16:33:05] "GET /static/signin_page/fonts/poppins/Poppins-Medium.ttf HTTP/1.1" 200 143516
+Not Found: /favicon.ico
+[09/Sep/2022 16:33:05] "GET /favicon.ico HTTP/1.1" 404 5663
+[09/Sep/2022 16:33:13] "GET /accounts/sign_in_patient HTTP/1.1" 200 10507
+[09/Sep/2022 16:33:16] "GET /accounts/signup_patient HTTP/1.1" 200 2899
+[09/Sep/2022 16:33:16] "GET /static/patient/signup_form/signup.css HTTP/1.1" 200 681
+[09/Sep/2022 16:35:58] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 16:36:06] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 16:41:12] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 16:41:12] "GET /static/homepage/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+[09/Sep/2022 16:41:12] "GET /static/jquery.js HTTP/1.1" 200 248235
+[09/Sep/2022 16:41:13,068] - Broken pipe from ('45.122.123.126', 42500)
+[09/Sep/2022 16:41:13,068] - Broken pipe from ('45.122.123.126', 42504)
+[09/Sep/2022 16:41:13,069] - Broken pipe from ('45.122.123.126', 42494)
+[09/Sep/2022 16:41:13,069] - Broken pipe from ('45.122.123.126', 42488)
+[09/Sep/2022 16:41:13,070] - Broken pipe from ('45.122.123.126', 42502)
+[09/Sep/2022 16:41:13,071] - Broken pipe from ('45.122.123.126', 42490)
+[09/Sep/2022 16:41:13] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 200 81349
+[09/Sep/2022 17:21:45] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 17:21:59] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 17:21:59] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 304 0
+[09/Sep/2022 17:22:23] "POST /accounts/sign_in_admin HTTP/1.1" 302 0
+[09/Sep/2022 17:22:23] "GET /accounts/sign_in_admin HTTP/1.1" 200 7080
+[09/Sep/2022 17:22:36] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 17:23:00] "GET / HTTP/1.1" 200 13022
+[09/Sep/2022 17:23:00] "GET /static/homepage/c31.jfif HTTP/1.1" 304 0
+[09/Sep/2022 17:23:00] "GET /static/homepage/c41.png HTTP/1.1" 304 0
+[09/Sep/2022 17:23:00] "GET /static/homepage/s72.png HTTP/1.1" 304 0
+[09/Sep/2022 17:23:12] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 17:23:16] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 17:23:38] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 17:23:46] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 17:24:01] "POST /accounts/sign_in_admin HTTP/1.1" 302 0
+[09/Sep/2022 17:24:01] "GET /accounts/sign_in_admin HTTP/1.1" 200 7080
+[09/Sep/2022 17:24:19] "POST /accounts/sign_in_admin HTTP/1.1" 302 0
+[09/Sep/2022 17:24:19] "GET /accounts/sign_in_admin HTTP/1.1" 200 7080
+[09/Sep/2022 17:24:24] "GET /accounts/sign_in_admin HTTP/1.1" 200 6970
+[09/Sep/2022 17:24:38] "POST /accounts/sign_in_admin HTTP/1.1" 302 0
+[09/Sep/2022 17:24:38] "GET /accounts/sign_in_admin HTTP/1.1" 200 7080
+[09/Sep/2022 17:25:14] "POST /accounts/sign_in_admin HTTP/1.1" 302 0
+[09/Sep/2022 17:25:14] "GET /accounts/sign_in_admin HTTP/1.1" 200 7080
+[09/Sep/2022 17:25:29] "GET / HTTP/1.1" 200 13022
+Invalid HTTP_HOST header: 'check.best-proxies.ru:443'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'check.best-proxies.ru:443'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+Bad Request: /check.best-proxies.ru:443
+[09/Sep/2022 21:33:02] "CONNECT check.best-proxies.ru:443 HTTP/1.1" 400 62920
+[09/Sep/2022 21:33:12] code 400, message Bad request syntax ('\x04\x01\x00P\x05²VL0\x00')
+[09/Sep/2022 21:33:12] " P²VL0 " 400 -
+Invalid HTTP_HOST header: 'check.best-proxies.ru'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'check.best-proxies.ru'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+Bad Request: /http:/check.best-proxies.ru/ip.php
+[09/Sep/2022 21:33:13] "GET http://check.best-proxies.ru/ip.php?Z77574924223Q1 HTTP/1.1" 400 63937
+[09/Sep/2022 21:33:22] code 400, message Bad request syntax ('\x05\x01\x00')
+[09/Sep/2022 21:33:22] " " 400 -
+[09/Sep/2022 23:28:12] code 400, message Bad request syntax ('\x01\x01æ')
+[09/Sep/2022 23:28:12] "æ" 400 -
+[10/Sep/2022 04:37:42] "GET / HTTP/1.1" 200 13022
+[10/Sep/2022 04:37:42] "GET /static/homepage/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[10/Sep/2022 04:37:42] "GET /static/homepage/css.css HTTP/1.1" 304 0
+[10/Sep/2022 04:37:42] "GET /static/jquery.js HTTP/1.1" 304 0
+[10/Sep/2022 04:37:43] "GET /static/homepage/c31.jfif HTTP/1.1" 304 0
+[10/Sep/2022 04:37:43] "GET /static/homepage/c41.png HTTP/1.1" 304 0
+[10/Sep/2022 04:37:43] "GET /static/homepage/s72.png HTTP/1.1" 304 0
+[10/Sep/2022 04:37:43] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 304 0
+[10/Sep/2022 08:17:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x04ÿã\x03Ç`³\x06µ\x8f©^¥\x9c\x04\x81Òs\x8cÌ¯U\\?ÞGs»¹\x8a©G\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[10/Sep/2022 08:17:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Sep/2022 14:42:57] "GET / HTTP/1.1" 200 13022
+[10/Sep/2022 18:32:07] "GET / HTTP/1.1" 200 13022
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8001'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8001'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[11/Sep/2022 03:41:26] "GET / HTTP/1.0" 400 62329
+[11/Sep/2022 03:59:03,147] - Broken pipe from ('194.165.16.71', 43200)
+[11/Sep/2022 03:59:03] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[11/Sep/2022 03:59:03] "  ,'à     Cookie: mstshash=Domain" 400 -
+[11/Sep/2022 03:59:03] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[11/Sep/2022 03:59:03] "  ,'à     Cookie: mstshash=Domain" 400 -
+[11/Sep/2022 05:25:39] code 400, message Bad request version ('À\x14À')
+[11/Sep/2022 05:25:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+[12/Sep/2022 01:17:28] code 400, message Bad request version ('À\x14À')
+[12/Sep/2022 01:17:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+[12/Sep/2022 08:27:02] code 400, message Bad request version ('À\x13À')
+[12/Sep/2022 08:27:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[12/Sep/2022 08:27:03] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 08:27:03] code 400, message Bad request syntax ('HELP')
+[12/Sep/2022 08:27:03] "HELP" 400 -
+[12/Sep/2022 08:27:04] "GET / HTTP/1.1" 200 13022
+Not Found: /server-status
+Not Found: /debug/default/view
+Not Found: /s/3139322e34362e3231332e313031/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+Not Found: /info.php
+[12/Sep/2022 08:27:04] "GET /info.php HTTP/1.1" 404 5655
+[12/Sep/2022 08:27:04] "GET /s/3139322e34362e3231332e313031/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 5933
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[12/Sep/2022 08:27:04] "GET /server-status HTTP/1.1" 404 5670
+Not Found: /.git/config
+[12/Sep/2022 08:27:04] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 5856
+Not Found: /.env
+[12/Sep/2022 08:27:04] "GET /.git/config HTTP/1.1" 404 5664
+Not Found: /.DS_Store
+[12/Sep/2022 08:27:04] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 13022
+[12/Sep/2022 08:27:04] "GET /debug/default/view?panel=config HTTP/1.1" 404 5698
+Not Found: /telescope/requests
+[12/Sep/2022 08:27:04] "GET /.env HTTP/1.1" 404 5643
+[12/Sep/2022 08:27:04] "GET /.DS_Store HTTP/1.1" 404 5658
+[12/Sep/2022 08:27:04] "GET /telescope/requests HTTP/1.1" 404 5685
+Not Found: /v2/_catalog
+Not Found: /config.json
+[12/Sep/2022 08:27:05] "GET /v2/_catalog HTTP/1.1" 404 5664
+Not Found: /about
+Not Found: /login.action
+[12/Sep/2022 08:27:05] "GET /about HTTP/1.1" 404 5646
+Not Found: /api/search
+[12/Sep/2022 08:27:05] "GET /config.json HTTP/1.1" 404 5664
+[12/Sep/2022 08:27:05] "GET /login.action HTTP/1.1" 404 5667
+[12/Sep/2022 08:27:05] "GET /api/search?folderIds=0 HTTP/1.1" 404 5673
+[12/Sep/2022 08:55:14] code 400, message Bad request version ('À\x13À')
+[12/Sep/2022 08:55:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[12/Sep/2022 08:55:24] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 08:55:24,945] - Broken pipe from ('43.153.10.221', 19374)
+[12/Sep/2022 09:09:32] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 09:09:33] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 09:09:33] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 09:09:34] "GET /static/jquery.js HTTP/1.1" 200 248235
+[12/Sep/2022 09:10:02] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 09:10:07] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 09:10:09] "GET /static/jquery.js HTTP/1.1" 200 248235
+----------------------------------------
+Exception occurred during processing of request from ('36.99.136.137', 10610)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 204, in handle
+    self.handle_one_request()
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 212, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[12/Sep/2022 10:03:53] "GET /?id= HTTP/1.1" 200 13022
+[12/Sep/2022 10:57:27] "GET /static/homepage/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[12/Sep/2022 10:57:27] "GET /static/homepage/css.css HTTP/1.1" 304 0
+[12/Sep/2022 10:57:27] "GET /static/jquery.js HTTP/1.1" 304 0
+[12/Sep/2022 10:57:27] "GET /static/homepage/c31.jfif HTTP/1.1" 304 0
+[12/Sep/2022 10:57:27] "GET /static/homepage/c41.png HTTP/1.1" 304 0
+[12/Sep/2022 10:57:27] "GET /static/homepage/s72.png HTTP/1.1" 304 0
+[12/Sep/2022 10:57:27] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 304 0
+[12/Sep/2022 16:28:38] "GET / HTTP/1.1" 200 13022
+Not Found: /robots.txt
+[12/Sep/2022 20:32:13] "GET /robots.txt HTTP/1.1" 404 5656
+[12/Sep/2022 20:32:22] "GET /accounts/signup_doctor HTTP/1.1" 200 4298
+[12/Sep/2022 20:35:37] "GET / HTTP/1.1" 200 13022
+[12/Sep/2022 20:36:32] "GET /accounts/signup_patient HTTP/1.1" 200 2899
+[13/Sep/2022 04:46:00] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ðÆW&ÒóÈÄ¼ê©rl¾í\x01¹kûRó??køÉb!£¦Æ,\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[13/Sep/2022 04:46:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/Sep/2022 09:40:53] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[13/Sep/2022 09:40:53] "  à          " 400 -
+[13/Sep/2022 10:38:47] "GET / HTTP/1.1" 200 13022
+[13/Sep/2022 14:19:54] code 400, message Bad request syntax ('\x01I20100')
+[13/Sep/2022 14:19:54] "I20100" 400 -
+[13/Sep/2022 22:22:45] "GET / HTTP/1.1" 200 13022
+[14/Sep/2022 03:21:54] code 400, message Bad request version ('À\x13À')
+[14/Sep/2022 03:21:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Sep/2022 03:21:55] "GET / HTTP/1.1" 200 13022
+[14/Sep/2022 03:21:55] code 400, message Bad request syntax ('HELP')
+[14/Sep/2022 03:21:55] "HELP" 400 -
+[14/Sep/2022 03:21:56] "GET / HTTP/1.1" 200 13022
+[14/Sep/2022 03:21:56] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 13022
+Not Found: /info.php
+Not Found: /telescope/requests
+Not Found: /.git/config
+Not Found: /server-status
+[14/Sep/2022 03:21:56] "GET /server-status HTTP/1.1" 404 5670
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Not Found: /debug/default/view
+[14/Sep/2022 03:21:56] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 5856
+Not Found: /s/3139322e34362e3231332e313031/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[14/Sep/2022 03:21:56] "GET /.git/config HTTP/1.1" 404 5664
+Not Found: /.env
+[14/Sep/2022 03:21:56] "GET /telescope/requests HTTP/1.1" 404 5685
+Not Found: /.DS_Store
+[14/Sep/2022 03:21:56] "GET /info.php HTTP/1.1" 404 5655
+[14/Sep/2022 03:21:56] "GET /debug/default/view?panel=config HTTP/1.1" 404 5698
+[14/Sep/2022 03:21:56] "GET /s/3139322e34362e3231332e313031/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 5933
+[14/Sep/2022 03:21:56] "GET /.env HTTP/1.1" 404 5643
+[14/Sep/2022 03:21:56] "GET /.DS_Store HTTP/1.1" 404 5658
+Not Found: /v2/_catalog
+Not Found: /about
+[14/Sep/2022 03:21:56] "GET /v2/_catalog HTTP/1.1" 404 5664
+Not Found: /api/search
+[14/Sep/2022 03:21:56] "GET /about HTTP/1.1" 404 5646
+Not Found: /login.action
+Not Found: /config.json
+[14/Sep/2022 03:21:56] "GET /api/search?folderIds=0 HTTP/1.1" 404 5673
+[14/Sep/2022 03:21:56] "GET /login.action HTTP/1.1" 404 5667
+[14/Sep/2022 03:21:56] "GET /config.json HTTP/1.1" 404 5664
+[14/Sep/2022 03:41:28] code 400, message Bad request version ('À\x13À')
+[14/Sep/2022 03:41:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Sep/2022 03:41:39] "GET / HTTP/1.1" 200 13022
+[14/Sep/2022 03:41:39,485] - Broken pipe from ('43.153.10.221', 13306)
+[14/Sep/2022 03:50:35] "GET / HTTP/1.1" 200 13022
+[14/Sep/2022 03:50:36] "GET / HTTP/1.1" 200 13022
+[14/Sep/2022 03:50:38] "GET /static/jquery.js HTTP/1.1" 200 248235
+[14/Sep/2022 05:14:17] "GET / HTTP/1.1" 200 13022
+[14/Sep/2022 10:08:55] code 400, message Bad request version ('À\x14À')
+[14/Sep/2022 10:08:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Sep/2022 16:13:31] code 400, message Bad request version ('À\x14À')
+[14/Sep/2022 16:13:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/Sep/2022 16:13:41] "GET / HTTP/1.1" 200 13022
+Not Found: /robots.txt
+[14/Sep/2022 16:14:01] "GET /robots.txt HTTP/1.1" 404 5661
+Not Found: /sitemap.xml
+[14/Sep/2022 16:14:01] "GET /sitemap.xml HTTP/1.1" 404 5664
+[14/Sep/2022 16:14:02] "GET /static/jquery.js HTTP/1.1" 200 248235
+[14/Sep/2022 16:14:21,303] - Broken pipe from ('27.124.32.159', 41782)
+[14/Sep/2022 16:14:21,509] - Broken pipe from ('27.124.32.159', 41852)
+[15/Sep/2022 00:18:29] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+[15/Sep/2022 00:18:29] "SSH-2.0-OpenSSH" 400 -
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8001'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/root/SmartClient/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8001'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Sep/2022 05:06:41] "HEAD / HTTP/1.0" 400 62336
+Not Found: /system_api.php
+[15/Sep/2022 05:06:42] "GET /system_api.php HTTP/1.1" 404 5673
+Not Found: /c/version.js
+[15/Sep/2022 05:06:46] "GET /c/version.js HTTP/1.1" 404 5667
+Not Found: /streaming/clients_live.php
+[15/Sep/2022 05:06:49] "GET /streaming/clients_live.php HTTP/1.1" 404 5709
+Not Found: /stalker_portal/c/version.js
+[15/Sep/2022 05:06:52] "GET /stalker_portal/c/version.js HTTP/1.1" 404 5712
+Not Found: /stream/live.php
+[15/Sep/2022 05:06:55] "GET /stream/live.php HTTP/1.1" 404 5676
+Not Found: /flu/403.html
+[15/Sep/2022 05:06:58] "GET /flu/403.html HTTP/1.1" 404 5667
+[15/Sep/2022 05:07:01] "GET / HTTP/1.1" 200 13022
+[15/Sep/2022 05:12:21] "GET / HTTP/1.1" 200 13022
+[15/Sep/2022 05:15:34] "GET / HTTP/1.1" 200 13022
+[15/Sep/2022 10:06:47] "GET / HTTP/1.1" 200 13022
+[15/Sep/2022 11:19:02] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x98Ãä\x0ekÁh\x89')
+[15/Sep/2022 11:19:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2022 22:07:42] code 400, message Bad request version ('À\x13À')
+[15/Sep/2022 22:07:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2022 22:07:53] "GET / HTTP/1.1" 200 13022
+[15/Sep/2022 22:07:53,852] - Broken pipe from ('111.7.96.149', 56168)
+[15/Sep/2022 22:07:57] "GET / HTTP/1.1" 200 13022
+[15/Sep/2022 22:07:58] "GET / HTTP/1.1" 200 13022
+[15/Sep/2022 22:07:59] "GET /static/jquery.js HTTP/1.1" 200 248235
+[15/Sep/2022 22:12:02] "GET / HTTP/1.1" 200 13022
+[16/Sep/2022 04:53:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x19QÚ\x8d\x9c9aÕ\xad\x18Ðý\x81â\x02AíÑÚ#²ÆÚùÿSÖR\x1bt,\x9a\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[16/Sep/2022 04:53:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2022 08:08:22] "GET / HTTP/1.1" 200 13022
+[16/Sep/2022 12:20:51] "GET / HTTP/1.1" 200 13022
+[16/Sep/2022 12:20:51] "GET /static/homepage/css.css HTTP/1.1" 200 194
+[16/Sep/2022 12:20:51] "GET /static/homepage/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+[16/Sep/2022 12:20:51] "GET /static/homepage/c31.jfif HTTP/1.1" 200 16465
+[16/Sep/2022 12:20:51] "GET /static/homepage/c41.png HTTP/1.1" 200 92863
+[16/Sep/2022 12:20:51] "GET /static/jquery.js HTTP/1.1" 200 248235
+[16/Sep/2022 12:20:52] "GET /static/homepage/s72.png HTTP/1.1" 200 2080473
+[16/Sep/2022 12:20:52] "GET /static/homepage/doctor-hand-medical-background.jpg HTTP/1.1" 200 81349

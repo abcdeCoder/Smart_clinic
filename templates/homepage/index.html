@@ -1,0 +1,298 @@
+﻿<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<title>GV smart clinic</title>
+
+<link rel="shortcut icon" href="https://mygvbuck.s3.amazonaws.com/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="https://mygvbuck.s3.amazonaws.com/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mygvbuck.s3.amazonaws.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mygvbuck.s3.amazonaws.com/favicon-16x16.png">
+<link rel="manifest" href="https://mygvbuck.s3.amazonaws.com/site.webmanifest">
+{% extends "basic.html" %}
+<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+{% load static %}
+
+ 
+{% block html %}
+{% block head %}
+
+
+
+{% endblock %}
+
+
+
+{% block body %}
+<!-- #4e0133 -->
+
+    
+<div class="jumbotron abuut">
+    <h1 class="display-4 head">choose your Own Doctor...</h1>
+    <p class="lead tex">
+            It might have happened so many times that you or someone yours need doctor’s help immediately,
+             but they are not available due to some reasons.The GV Smart clinic at your service contains the features to Prediction Diseaseis an end user
+              support and online consultation project. Here, we propose a web application that allow users 
+              to get instant guidance on their disease through an intelligent system. The application is 
+              fed with various details and the disease associated with those details.The application allows
+               user to share their disease related issues.It then processes user specific details to check 
+               for various illness that could be associated with it.Here we use some intelligent data mining
+                techniques to guess the most accurate illness that could be associated with patient’s details.
+                Based on result, patient can contact doctor accordingly for further treatment patient live chat with doctor
+                
+                <div class="container">
+                  <video width="62%" height="89%" class="vid" controls autoplay>  
+                    <source src="https://mygvbuck.s3.amazonaws.com/movie.mp4" type="video/mp4">  
+                    </video>  
+              </div>
+                
+  
+     {% if user.is_authenticated %}
+
+     
+     {% else %}
+
+      <p class="lead">
+      <button type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target=".bd-example-modal-lg">Get started</button>
+      </p>
+    
+
+</div>
+
+<br><br><br>
+<div class="container mt-5 mb-3" style="width:fit-content;">
+      <center>
+        <h1>Sign-In  As</h1>
+        </center>
+      
+      
+      <form>
+          <div class="container mt-5 mb-5">
+       <div class="row">
+          <div class="col">
+             <a href="{% url 'sign_in_admin' %}">
+      <img  alt="admin" src="https://mygvbuck.s3.amazonaws.com/admin.PNG"  class="img">
+      </a>
+          </div>
+      
+          <div class="col">
+      <a href="{% url 'sign_in_doctor' %}">
+      <img  alt="doctor" src="https://mygvbuck.s3.amazonaws.com/doctor.PNG"  class="img">
+      </a>
+          </div>
+      
+          <div class="col">
+      <a href="{% url 'sign_in_patient' %}">
+      <img  alt="patient" src="https://mygvbuck.s3.amazonaws.com/patient.PNG"  class="img">
+      </a>
+          </div>
+        </div>
+        </div>
+      </form>
+</div>
+
+
+    
+
+    {% endif %}
+
+<br><br>
+
+
+
+
+<!-- Large modal -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+   
+<center>
+  <h1>Sign-In  As</h1>
+  </center>
+<br><br>
+
+<center>
+<form>
+    <div class="container mt-5 mb-5">
+ <div class="row">
+    <div class="col">
+       <a href="{% url 'sign_in_admin' %}">
+<img  alt="admin" src="https://mygvbuck.s3.amazonaws.com/admin.PNG"  class="img">
+</a>
+    </div>
+
+    <div class="col">
+<a href="{% url 'sign_in_doctor' %}">
+<img  alt="doctor" src="https://mygvbuck.s3.amazonaws.com/doctor.PNG"  class="img">
+</a>
+    </div>
+
+    <div class="col">
+<a href="{% url 'sign_in_patient' %}">
+<img  alt="patient" src="https://mygvbuck.s3.amazonaws.com/patient.PNG"  class="img">
+</a>
+    </div>
+  </div>
+  </div>
+</form>
+</center>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Large modal -->
+
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+   
+<center>
+  <h1>Sign-Up  As</h1>
+  </center>
+<br><br>
+
+<center>
+<form>
+    <div class="container mt-5 mb-5 ml-5 mr-5">
+ <div class="row">
+
+    <div class="col">
+<a href="{% url 'signup_doctor' %}">
+<img  alt="doctor" src="https://mygvbuck.s3.amazonaws.com/doctor.PNG"  class="img">
+</a>
+    </div>
+
+    <div class="col">
+<a href="{% url 'signup_patient' %}">
+<img  alt="patient" src="https://mygvbuck.s3.amazonaws.com/patient.PNG"  class="img">
+</a>
+    </div>
+  </div>
+  </div>
+</form>
+</center>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<br><br><br><br>
+<center><h2>Our Doctors</h2></center>
+<div class="row mt-5 mb-5">
+    <div class="col">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Dr. HARISH BIST </h5>
+                <img  alt="admin" src="{% static 'homepage/c31.jfif' %}" width="200" height="150" class="rounded">
+                <p class="card-text">Country Club Road  India DELHI New Delhi 110045 Route 30.</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Dr. HARRY BUSTAN </h5>
+                <img  alt="admin" src="{% static 'homepage/c41.png' %}" width="200" height="150" class="rounded">
+                <p class="card-text"> Willow Avenue  India  110092  Punjab.</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">DR. Poja RAWAT</h5>
+                <img  alt="admin" src="{% static 'homepage/s72.png' %}" width="200" height="150" class="rounded">
+                <p class="card-text"> Charles Street  India 110074 Jaipur-302 019.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+  
+
+<br><br><br><br>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer" class="card bg-dark text-white">
+      <div class="card-body">
+        Contact-
+     
+    <ul >
+     
+      <li >
+        <h5 class="mb-1"><a href ="mailto:gaurav.02116403220@ipu.ac.in">Email</a></h5>
+      </li>
+      <li >
+        <h5 class="mb-1"><a href ="https://www.linkedin.com/in/gaurav-verma-88056a224">Linkdin</a></h5>
+      </li>
+      <li >
+        <h5 class="mb-1"><a href ="https://github.com/abcdeCoder">Github</a></h5>
+      </li>
+      <li >
+        <h5 class="mb-1"><a href ="https://abcdecoder.github.io/portfolio.github.io/">Portfolio</a></h5>
+      </li>
+      <li >
+        <h5 class="mb-1">Contact number 7042269320</h5>
+      </li>
+      <li >
+        <h5 class="mb-1">Guru Gobind Singh Indraprastha University</h5>
+        <div class="footer-copyright text-center">© 2022 Copyright:
+          <a href="/"> GVSmartClinic.com</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+
+  
+ 
+
+
+
+
+
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    
+
+
+
+
+    
+{% endblock %}
+{% endblock %}

@@ -8,5 +8,5 @@
 # http://gvprojects.ml:8001/
 # What is Smart Clinic?
 -> Smart Clinic is Three Side Application ( Doctor , Patient , Admin )
--> this project predict decision and Patient can live chat with doctor regrading Cure 
--> some basic Tech used socket.io and trained_model
+-> this project predict disease with help of models and Patient can live chat with doctor regrading Cure 
+-> some basic Tech used socket.io
